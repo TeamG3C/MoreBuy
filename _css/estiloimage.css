@@ -1,0 +1,45 @@
+figure.cartao{
+/*  background: : url("3Meses.jpg");*/
+  position = relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px green;
+  position: relative;
+}
+
+figure.cartao img{
+  height: 100%;
+  width: 100%;
+}
+figure.cartao figcaption{
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(17,125,16,0.75);
+  padding:10px;
+  box-sizing: border-box;
+  color: white;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.5s;
+  text-align: center;
+}
+figure.cartao button{
+  opacity: 0;
+  position: absolute;
+  top:50%;
+  left: 50%;
+}
+figure.cartao:hover figcaption{
+  opacity: 1;
+}
+figure.cartao:hover button{
+  opacity: 1;
+}
+/*.imagem:hover > .overlay {
+width: 100%;
+height: 100%;
+position: absolute;
+background-color: #000;
+opacity: 0.5;
+border-radius: 30px;
+}*/
