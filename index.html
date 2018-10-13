@@ -9,46 +9,75 @@ Ultima atualização: 19/08/2018 por Guilherme Medeiros-->
   <meta charset="utf-8" />
   <link rel="icon" href="_imagem/logo.ico" />
   <title>MOREBUY</title>
-  <link rel="stylesheet" href="text/css" href="_css/estilorow.css" />
+  <link rel="stylesheet" href="_css/topMenu.css">
+  <link rel="stylesheet" href="_css/leftMenu.css">
   <link rel="stylesheet" type="text/css" href="_css/estiloimage.css" />
 </head>
 
 <body>
-
-  <figure class="cartao">
-    <img src="_imagem/3Meses.jpg" alt="3 Meses"/>
-
-    <figcaption>
-      <h1>Assinatura Xbox Live Gold (Código Digital) de 3 MESES</h1>
-      <h3>R$ 69,00</h3>
-    </figcaption>
-
-    <button type="button" name="button">COMPRAR</button>
-  </figure>
-
-
-  <figure class="cartao">
-    <img src="_imagem/6Meses.png" alt="6 Meses"/>
-
-    <figcaption>
-      <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
-      <h3>R$ 119,00</h3>
-    </figcaption>
-    <button type="button" name="button">COMPRAR</button>
-  </figure>
+  <ul class="topbar">
+    <!-- Barra de menu superior -->
+    <li style="float:left" class="topbar"> <img src="_imagem/logo_morebuy.png" alt="Morebuy">
+    </li>
+    <!-- Search Bar -->
+    <li class="topbar" style="padding-left:25%;padding-top:1.25%">
+      <input type="text" id="txtBusca" placeholder="Buscar..." /style="font-size:30pt;">
+      <button style="background: white;position: absolute;border:solid;border-width:1px;border-radius:5px;"> <img src="_imagem/search.png" width="45px" height="45px"></button>
+    </li>
+      <li class="topbar" style="padding-top:1.25%"></li>
+    <li style="float:right" class="topbar"> <img src="_imagem/carrinho.png" style="weight:60px;width:60px"> </li>
+  </ul>
 
 
-  <figure class="cartao">
-    <img src="_imagem/6Meses.png" alt="6 Meses"/>
+    <ul class="leftbar">
+      <li class="leftbar"> <button type="button" name="button" class="leftbar" style="background:grey">Catalogo</button> </li>
+      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">3 Meses</a> </button> </li>
+      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">6 Meses</a> </button> </li>
+      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">9 Meses</a></button> </li>
 
-    <figcaption>
-      <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
-      <h3>R$ 119,00</h3>
-    </figcaption>
-    <button type="button" name="button">COMPRAR</button>
-  </figure>
+    </ul>
 
 
+    <table>
+
+      <tr>
+        <td>
+          <figure class="cartao">
+            <img src="_imagem/3Meses.jpg" alt="3 Meses" />
+
+            <figcaption>
+              <h1>Assinatura Xbox Live Gold (Código Digital) de 3 MESES</h1>
+              <h3>R$ 69,00</h3>
+            </figcaption>
+
+            <button type="button" name="button">COMPRAR</button>
+          </figure>
+
+        </td>
+        <td>
+          <figure class="cartao">
+            <img src="_imagem/6Meses.png" alt="6 Meses" />
+
+            <figcaption>
+              <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
+              <h3>R$ 119,00</h3>
+            </figcaption>
+            <button type="button" name="button">COMPRAR</button>
+          </figure>
+        </td>
+        <td>
+          <figure class="cartao">
+            <img src="_imagem/6Meses.png" alt="6 Meses" />
+
+            <figcaption>
+              <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
+              <h3>R$ 119,00</h3>
+            </figcaption>
+            <button type="button" name="button">COMPRAR</button>
+          </figure>
+        </td>
+      </tr>
+    </table>
 </body>
 
 </html>

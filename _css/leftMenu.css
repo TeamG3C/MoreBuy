@@ -1,0 +1,34 @@
+ul.leftbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25 %;
+  background-color: #e1e7e4;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: block;
+  color: #000;
+  padding: 8px 2px;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+}
+
+li.leftbar {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+button.leftbar{
+  border: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  background: none;
+  text-decoration: none;
+}

@@ -1,0 +1,41 @@
+ul.topbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b4b6b5;
+  position: sticky;
+  top: 0;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+li.topbar{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+.active{
+  background-color: #4CAF50;
+}
+
+td{
+  padding-left: 15%;
+}
+body{
+background-image:url(../_imagem/background.png);
+background-position: top left;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
