@@ -1,0 +1,10 @@
+.menucima{
+  position: absolute;
+  border: 8px solid black;
+  height: 50px;
+  width: 100%;
+}
+
+#id{
+  position: fixed;
+}

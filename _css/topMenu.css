@@ -39,3 +39,12 @@ a:visited{
 a:hover{
   color: grey;
 }
+#btm{
+  cursor: pointer;
+  margin-top: 1.25%;
+}
+
+li#carrinho:hover{
+  background-color: gray;
+  opacity: 1;
+}
