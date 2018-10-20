@@ -12,82 +12,96 @@ Ultima atualização: 19/08/2018 por Guilherme Medeiros-->
   <link rel="stylesheet" href="_css/topMenu.css">
   <link rel="stylesheet" href="_css/leftMenu.css">
   <link rel="stylesheet" type="text/css" href="_css/estiloimage.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
-  <ul class="topbar">
-    <!-- Barra de menu superior -->
-    <li style="float:left" class="topbar"> <img src="_imagem/logo_morebuy.png" alt="Morebuy">
-    </li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="_imagem/logo_morebuy.png" alt="">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Search Bar -->
-    <li class="topbar" style="padding-left:17%;padding-top:1.25%">
-      <input type="text" id="txtBusca" placeholder="Buscar..." /style="font-size:30pt;">
-    </li>
-    <li><button id="btm" style="background: white;position: absolute;border:solid;border-width:1px;border-radius:5px;"> <img src="_imagem/search.png" width="45px" height="45px"></button></li>
-    <!-- Fim da barra de pesquisa-->
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
 
-      <!-- Carrinho-->
-      <li class="topbar" style="padding-top:1.25%"></li>
-      <li id="carrinho" style="float:right; margin-top:0.5%; margin-right:0.5%;" class="topbar">
-        <img src="_imagem/carrinho.png" style="weight:60px;width:60px">
 
-     </li>
-      <!-- fim do carrinhi-->
+  <ul class="leftbar">
+    <li class="leftbar"> <button type="button" name="button" class="leftbar" style="background:grey">Catalogo</button> </li>
+    <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">3 Meses</a> </button> </li>
+    <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">6 Meses</a> </button> </li>
+    <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">9 Meses</a></button> </li>
 
-      <!-- Fim do menu superior-->
   </ul>
 
 
-    <ul class="leftbar">
-      <li class="leftbar"> <button type="button" name="button" class="leftbar" style="background:grey">Catalogo</button> </li>
-      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">3 Meses</a> </button> </li>
-      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">6 Meses</a> </button> </li>
-      <li class="leftbar"> <button type="button" name="button" class="leftbar"> <a href="www.google.com">9 Meses</a></button> </li>
+  <div class="container-fluid">
 
-    </ul>
+    <div class="row justify-content-md-center" style="padding-top:3%">
+      <div class="col-3">
 
 
-    <table>
 
-      <tr>
-        <td>
-          <figure class="cartao">
-            <img src="_imagem/3Meses.jpg" alt="3 Meses" />
+    <figure class="cartao">
+      <img src="_imagem/3Meses.jpg" alt="3 Meses" />
 
-            <figcaption>
-              <h1>Assinatura Xbox Live Gold (Código Digital) de 3 MESES</h1>
-              <h3>R$ 69,00</h3>
-            </figcaption>
+      <figcaption>
+        <p style="padding-top:10%" ><font size="5"> Assinatura Xbox Live Gold (Código Digital) de 3 MESES </font></p>
+        <h3><font> R$ 69,00 </font></h3>
+      </figcaption>
+      <button type="button" name="button">COMPRAR</button>
+    </figure>
+</div>
+<div class="col-3">
 
-            <button type="button" name="button">COMPRAR</button>
-          </figure>
+    <figure class="cartao">
+      <img src="_imagem/6Meses.png" alt="6 Meses" />
 
-        </td>
-        <td>
-          <figure class="cartao">
-            <img src="_imagem/6Meses.png" alt="6 Meses" />
+      <figcaption>
+        <p style="padding-top:10%"><font size="5">Assinatura Xbox Live Gold (Código Digital) de 6 MESES</font></p> 
+        <h3><font>R$ 119,00</font></h3>
+        
+      </figcaption>
+      <button type="button" name="button">COMPRAR</button>
+    </figure>
+</div>
+<div class="col-3">
 
-            <figcaption>
-              <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
-              <h3>R$ 119,00</h3>
-            </figcaption>
-            <button type="button" name="button">COMPRAR</button>
-          </figure>
-        </td>
-        <td>
-          <figure class="cartao">
-            <img src="_imagem/6Meses.png" alt="6 Meses" />
 
-            <figcaption>
-              <h1>Assinatura Xbox Live Gold (Código Digital) de 6 MESES</h1>
-              <h3>R$ 119,00</h3>
-            </figcaption>
-            <button type="button" name="button">COMPRAR</button>
-          </figure>
-        </td>
-      </tr>
-    </table>
+    <figure class="cartao">
+      <img src="_imagem/6Meses.png" alt="6 Meses" />
+
+      <figcaption>
+        <p style="padding-top:10%"><font size="5">Assinatura Xbox Live Gold (Código Digital) de 6 MESES</font></p> 
+        <h3><font>R$ 119,00</font></h3>
+      </figcaption>
+      <button type="button" name="button">COMPRAR</button>
+    </figure>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -19,9 +19,6 @@ li.topbar{
   float: left;
 }
 
-.active{
-  background-color: #4CAF50;
-}
 
 td{
   padding-left: 15%;
@@ -45,6 +42,6 @@ a:hover{
 }
 
 li#carrinho:hover{
-  background-color: gray;
+  background-color: grey;
   opacity: 1;
 }
